@@ -3,7 +3,7 @@ import mapboxgl, { Marker } from 'mapbox-gl'
 import { v4 } from 'uuid'
 import { Subject } from 'rxjs'
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoia2xlcml0aCIsImEiOiJja2dzOHdteDkwM2tnMndxMWhycnY3Ymh3In0.Zis8hP6HuwcywtgUhfeZoQ'
+mapboxgl.accessToken = 'coloca_el_token'
 
 export const useMapbox = (puntoInicial) => {
   
